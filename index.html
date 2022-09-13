@@ -7,9 +7,9 @@
     <link rel="icon" type="image/x-icon" href="./images/logo.jpeg">
     <style>
         .main {
-            width: 950px;
+            width: 60%;
             align-self: center;
-            font-family: 'Brush Script MT', cursive;
+            font-family: Arial;
             text-justify: auto;
             text-shadow: none;
             line-height: 1.7;
@@ -25,6 +25,10 @@
             height: 770px;
             overflow: hidden;
             margin: auto;
+        }
+
+        p {
+            font-size: 18px;
         }
 
         .iframecontent {
@@ -57,7 +61,7 @@
             position: -webkit-sticky;
             position: sticky;
             top: 300px;
-            width: 300px;
+            width: 18%;
             height: 100px;
             font-family: 'Brush Script MT', cursive;
         }
@@ -108,7 +112,18 @@
         </div>
         <div class="main">
             <h2 style="text-align: center;">Comparing the top Smart contract platforms</h2>
-            <br>
+            <h3>What are smart contracting platforms?</h3>
+            <p>
+                Smart contract platforms, unironically, provide a venue for deploying smart contracts and decentralized
+                applications. They are owned,
+                operated, and secured by distributed bases of token holders and
+                computer hardware operators which makes them difficult to censor
+                and provides for their 24/7 operation. They serve as the base security layer of this emerging
+                “decentralized economy stack”. And everything that is built on top of them inherits their security,
+                performance, and censorship-resistance characteristics.</p>
+            <p>Let's look at some of the key metrics and fundamentals that investors and developer's consider while
+                evaluating the Layer 1 landscape? </p>
+
             <h3 id="1">1.Market Cap</h3>
             <p>Market cap is calculated by multiplying the total number of coins that have been mined by the price of a
                 single coin at any given time.<br>
@@ -161,9 +176,9 @@
                 out to validators and delegators or emitted in airdrops.<br>
                 ii. Foundation / Ecosystem Support tokens are typically reserved for
                 building out infrastructure, securing strategic partnerships, and
-                supporting projects that are looking to deploy apps on these networks.<br>
-                iii. Development Organization and Team tokens incentivize developers tasked with developing core<br>
-                platform technology and conducting ongoing research<br>
+                supporting projects that are looking to deploy apps on these networks.<br>
+                iii. Development Organization and Team tokens incentivize developers tasked with developing core<br>
+                platform technology and conducting ongoing research<br>
                 Native token value has a unique relationship with platform security; especially when it comes to PoS
                 networks. In PoS networks, the aggregate value of staked tokens serves as a proxy for how costly it can
                 be to attack the network. Networks with native tokens that are more valuable, more widely distributed,
@@ -174,9 +189,13 @@
                 token has little to no value, its platform provides weak censorship resistance and security guarantees.
                 And it will most likely not be an attractive venue for deploying applications that could drive
                 incremental token value.</p>
-            <img src="./images/Token distr.png" width="900px" height="550px">
+            <img src="./images/nativeTokenDistri.png" width="900px" height="550px">
             <br>
             <h3 id="2">2.Security</h3>
+            <p>Security should always be top priority when evaluating any Layer 1.<br>
+                At the core, blockchains are settlement layers for value. If the settlement layer isn’t secure, it’s not
+                worth anything. You need assurances that when you transact on the network that your transaction is
+                final. There should be no chance of reversibility from bad actors. </p>
             <h4>Attack vector 1: 33% attack</h4>
             <p>
                 How much does it cost for an entity to become 33% validator?<br>
@@ -214,8 +233,8 @@
                 This is okay – the ecosystem is young. There’s a lot of development that needs to be done. There are a
                 lot more people to onboard into this technology.<br>
                 The first profitable blockchain will be Ethereum after the post merge.</p>
-            <img src="./images/1_3fXMBLtOCfgBwc2FROW2Vw.png">
-            <img src="./images/1_hGBR-3niQ8sRmUdcKOydAA.png">
+            <img src="./images/AverageDailyFee.png">
+            <img src="./images/profit.png">
             <p>As on 1/4/2022 </p>
             <a href="https://newsletter.banklesshq.com/p/the-first-profitable-blockchain"> Source(banklesshq)</a>
             <h3 id="5">5.Are there developers</h3>
@@ -226,12 +245,18 @@
                 killer apps that attract end-user to the platform. Which in turn attract more developer to the platform.
                 Fortunately, Electric Capital does a great job every year diving into the developer ecosystem across
                 different networks.</p>
-            <img src="./images/1_5k0A3K-lI4zjk-Zpsqwk2g.png">
-            <img src="./images/1_Bck8z3PXYdPD4fyNXH9l8A.png">
-            <img src="./images/1_IGfByAuye80n8WDuiwCC6Q.png">
+            <img src="./images/100+Developers.png" width="100%">
+            <img src="./images/50+Developers.png" width="100%">
+            <img src="./images/20-50Developers.png" width="100%">
             <a
                 href="https://github.com/electric-capital/developer-reports/blob/master/dev_report_2021_updated_012622.pdf">Source(electric-capital)</a>
             <h3 id="6">6.Decentralization</h3>
+            <p>Decentralization should
+                be a persistent and mission-critical goal for
+                communities building blockchain infrastructure.
+                It is how security and censorship resistance are
+                achieved and it has far-reaching consequences
+                for entire ecosystems.</p>
             <h5>i. The computational requirements to run a validator node</h5>
             <p> While PoS networks are substantially less computationally intensive than their PoW counterparts, they
                 nonetheless require upfront and ongoing spend on computer infrastructure to run blockchain software.
@@ -239,13 +264,13 @@
                 consumer-grade hardware such as Raspberry Pis and laptops that cost around $100 to $1,000 to
                 industrial-grade hardware setups that cost thousands of dollars and require substantial recurring
                 maintenance spend.</p>
-            <img src="./images/stakers.png">
+            <img src="./images/Hardware-requirements.png">
             <h5>ii. The minimum financial stake required to enter the validator set.</h5>
             <p>In addition to procuring hardware to run blockchain software, validators in PoS networks are typically
                 required to "lock-up" a minimum amount of financial stake to enter the validator set. As displayed in
                 the table below, requirements vary substantially on a network-to-network basis.</p>
-            <img src="./images/validator.png">
-            <h5>iii. Staking Distribution</h5>
+            <img src="./images/minimumStaking.png">
+            <h5>iii. Staking Nodes Distribution</h5>
             <img src="./images/distrubtion.png">
             <h3 id="7">7.Performance</h3>
             <p>While consensus algorithms are a critical component of how networks operate, they also impact one of
